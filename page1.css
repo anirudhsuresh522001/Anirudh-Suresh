@@ -34,13 +34,16 @@ p
 }
 body
 {
-	background: black;
+	background-image: url("background.jpeg");
 }
 #intro
 {
 	font-family: Georgia;
 	font-weight: bold;
 	color: white;
+	display: block;
+	word-spacing: 5px;
+	letter-spacing: 1px;
 
 }
 h1
@@ -100,9 +103,10 @@ h1
 }
 ol
 {
-    color:white;
+	color:white;
 }
-h2
+
+a:hover
 {
 	color:white;
 }
