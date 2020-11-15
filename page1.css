@@ -1,50 +1,108 @@
 .hf
 {
-	background:purple;
+	background:orange;
     color: white;
-    border: 5px solid black;
+    border: 5px dashed white;
     padding: 13px;
     margin:auto auto;
     font-style: italic;
     font-weight: bolder;
     font-size: large;
+    border-radius: 15px;
+}
+img
+{
+	float: right;
+	border-radius: 10px;
+}
+#centre
+{
+	text-align: center;
 }
 table
 {
 	background:black;
 	color:white;
 	border: 3px dashed white;
+	border-color: white;
+	border-radius: 10px;
 }
 p
 {
     font-family: arial;
 	color:black;
 }
-.div-table
-{
-	background: grey;
-}
-#social
-{
-	background: grey;
-}
 body
 {
-	background: grey;
+	background: black;
 }
 #intro
 {
 	font-family: Georgia;
 	font-weight: bold;
+	color: white;
 
 }
 h1
 {
 	color: orange;
-}
+}    
 .contact
 {
 	font-weight: bold;
 	font-size: large;
+	color: white;
 	
+}
+.img
+{
+    text-indent: 1155px;
+}
+#a
+{
+	background: none;
+    padding: 5px;
+    border:3px dotted orange;
+    border-radius: 20px;
+    width: 140px;
+}
+#b
+{
+	background: none;
+    padding: 5px;
+    border:3px dotted orange;
+    border-radius: 20px;
+    width: 135px;
+}
+#c
+{
+	background: none;
+    padding: 5px;
+    border:3px dotted orange;
+    border-radius: 20px;
+    width: 230px;
+}
+#d
+{
+	background: none;
+    padding: 5px;
+    border:3px dotted orange;
+    border-radius: 20px;
+    width: 200px;
+}
+#e
+{
+	background: none;
+    padding: 5px;
+    border:3px dotted orange;
+    border-radius: 20px;
+    width: 165px;
+}
+ol
+{
+    color:white;
+}
+h2
+{
+	color:white;
 }
