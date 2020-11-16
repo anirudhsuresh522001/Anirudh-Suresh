@@ -21,8 +21,11 @@ img
 }
 table
 {
-	background:black;
+	
 	color:white;
+	font-weight: bold;
+	font-size: x-large;
+	font-style: normal;
 	border: 3px dashed white;
 	border-color: white;
 	border-radius: 10px;
@@ -56,10 +59,6 @@ h1
 	font-size: large;
 	color: white;
 	
-}
-.img
-{
-    text-indent: 1155px;
 }
 #a
 {
@@ -105,8 +104,11 @@ ol
 {
 	color:white;
 }
-
+a
+{
+	color: white;
+}
 a:hover
 {
-	color:white;
+	color:orange;
 }
