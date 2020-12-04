@@ -136,20 +136,22 @@ body
 {
 	width: 20px;
 	height: 20px;
+	top: -20px;
+	left: -97px;
 	background-color: orange;
 	position: relative;
 	animation-name: anime;
-	animation-duration: 15s;
-	animation-delay: 2s;
+	animation-duration: 20s;
+	animation-delay: 0.5s;
 	border:2px solid white;
 	animation-iteration-count: 100;
-	border-radius: 7px;
+	border-radius: 20px;
 }
 @keyframes anime
 {
-	0% {background-color: orange; left: -20px; top: -97px;  }
-	25% {background-color: black; left: 1300px; top: -97px;  }
-	50% {background-color: yellow; left: 1300px; top: 960px;  }
-	75% {background-color: blue; left: -20px; top: 960px;  }
+	0% {background-color: green; left: -20px; top: -97px;  }
+	25% {background-color: violet; left: 1300px; top: -97px;  }
+	50% {background-color: pink; left: -20px; top: -97px;  }
+	75% {background-color: blue; left: 1300px; top: -97px;  }
 	100% {background-color: red; left: -20px; top: -97px;  }
 }
